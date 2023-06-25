@@ -1,6 +1,7 @@
 <html>
 <body>
 <h1><font color='blue'> Kosana Raja Sankara Srinivas </font></h1>
+<h1><font color='green'> I studied Civil Engineering in Vijayawada </font></h1>
 <h2>I received Prathibha-Award's on the year 2018</h2>
 <link href="images/srinivas.jpg" rel="icon">
 <span>
