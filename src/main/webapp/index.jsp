@@ -5,6 +5,8 @@
 <h2><font color='black'> I am currently works as DevOps Engineer </font></h2>
 <h2><font color='black'> I am having knowledge on following: </font></h2>
 <h3><font color='black'> Basic OS - Windows, Linux and Shell Script </font></h3>
+<h3><font color='black'> Scripting Language - Shell Script </font></h3>
+<h3><font color='black'> Programming Language - Python </font></h3>
 <h3><font color='black'> Cloud Platform - Amazon Web Services </font></h3>
 <h3><font color='black'> DevOps Tools - Git,Github,Maven,Tomcat,SonarQube,Nexus,Jenkins,Ansible,Docker,Kuberneets,Basics of Terraform </font></h3>
 
