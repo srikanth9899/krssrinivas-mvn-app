@@ -2,22 +2,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- name: srinivasmvnappdeployment
+ name: mavenwebappdeployment
 spec:
  replicas: 2
- strategy:
-  type: Recreate
- selector:
-  matchlables:
-   app: srinivasmvnapp
-template:
+ strategy: 
+    type: Recreate
+ selector: 
+   matchLabels: 
+     app: mavenwebapp
+ template:
   metadata:
-   name: srinivasmvnappod
+   name: mavenwebapppod
    labels:
-     app: srinivasmvnapp	 
+     app: mavenwebapp	 
   spec: 
     containers:
-    - name: srinivasmvnappcontainer
+    - name: mavenwebappcontainer
       image: ashokit/mavenwebapp
       imagePullPolicy: Always
       ports:
@@ -26,11 +26,11 @@ template:
 apiVersion: v1
 kind: Service
 metadata:
- name: srinivasmvnappvc
+ name: mavenwebappsvc
 spec:
   type: LoadBalancer
   selector:
-   app: srinivasmvnapp
+   app: mavenwebapp
   ports:
    - port: 80
      targetPort: 8080
