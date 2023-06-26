@@ -32,13 +32,13 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>KRS Srikanth Release Nexus Repository</name>
-	      <urlhttp://184.72.113.153:8081/repository/srikanth-release/</url>
+	      <name>Srikanth Release Nexus Repository</name>
+	      <url>http://184.72.113.153:8081/repository/srikanth-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>KRS Srikanth Snapshot Nexus Repository </name>
+	      <name>Srikanth Snapshot Nexus Repository </name>
 	      <url>http://184.72.113.153:8081/repository/srikanth-snapshot/</url>
 	    </snapshotRepository>
 	    
